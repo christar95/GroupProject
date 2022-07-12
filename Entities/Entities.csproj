@@ -51,8 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums\Type.cs" />
-    <Compile Include="Enums\WorkType.cs" />
+    <Compile Include="Enums\EmploymentType.cs" />
+    <Compile Include="Enums\WorkPlace.cs" />
     <Compile Include="JobAd.cs" />
     <Compile Include="Company.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

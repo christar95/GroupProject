@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Enums
 {
-    public enum JobType
+    public enum EmploymentType
     {
         FullTime,
         PartTime

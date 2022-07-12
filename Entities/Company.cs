@@ -17,9 +17,11 @@ namespace Entities
         {
             JobAds=new HashSet<JobAd>();
         }
-        public double ReviewAvg(List<double> reviews)
-        {
-            return reviews.Average();
-        }
+
+        //public double ReviewAvg(List<double> reviews)
+        //{
+        //    return reviews.Average();
+        //}
+
     }
 }

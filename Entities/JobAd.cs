@@ -14,7 +14,7 @@ namespace Entities
         public string Description { get; set; }
         public DateTime DatePosted { get; set; }
         public int? Salary { get; set; }
-        public JobType Type { get; set; }
+        public EmploymentType EmploymentType { get; set; }
         public WorkPlace WorkPlace { get; set; }
         public int CompanyId { get; set; }
         public Company Company { get; set; }
