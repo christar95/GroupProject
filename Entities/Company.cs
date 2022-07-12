@@ -11,6 +11,15 @@ namespace Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public int Employees { get; set; }
-
+        public List<double> Reviews { get; set; }
+        public ICollection<JobAd> JobAds { get; set; }
+        public Company()
+        {
+            JobAds=new HashSet<JobAd>();
+        }
+        public double ReviewAvg(List<double> reviews)
+        {
+            return reviews.Average();
+        }
     }
 }

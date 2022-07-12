@@ -15,7 +15,7 @@ namespace Entities
         public DateTime DatePosted { get; set; }
         public int? Salary { get; set; }
         public JobType Type { get; set; }
-        public int MyProperty { get; set; }
+        public WorkPlace WorkPlace { get; set; }
         public int CompanyId { get; set; }
         public Company Company { get; set; }
     }
