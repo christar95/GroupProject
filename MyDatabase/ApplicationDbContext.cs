@@ -1,4 +1,5 @@
-﻿using MyDatabase.Initializers;
+﻿using Entities;
+using MyDatabase.Initializers;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -15,5 +16,8 @@ namespace MyDatabase
             Database.SetInitializer<ApplicationDbContext>(new MockupDbInitializer());
             Database.Initialize(false);
         }
+
+        public DbSet<JobAd> JobAds { get; set; }
+        public DbSet<Company> Companies { get; set; }
     }
 }
